@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/AUT/Term4/CA/Lab/Lab2/Comparator4bit_Test_isim_beh.exe" -prj "D:/AUT/Term4/CA/Lab/Lab2/Comparator4bit_Test_beh.prj" "work.Comparator4bit_Test" 
