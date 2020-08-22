@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-08-22T17:10:03</DateModified>
+  <DateModified>2020-08-22T22:42:19</DateModified>
   <ModuleName>full_adder</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/acer/Lab1/iseconfig/full_adder.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/acer/Lab1</ImplementationReportsDirectory>
+  <SavedFilePath>D:/AUT/Term4/CA/Lab/Lab1/Code/iseconfig/full_adder.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/AUT/Term4/CA/Lab/Lab1/Code\</ImplementationReportsDirectory>
   <DateInitialized>2020-08-22T17:10:02</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
