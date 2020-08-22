@@ -1,0 +1,29 @@
+V3 20
+FL C:/Users/acer/Lab2/and_gate.vhd 2020/08/22.10:50:04 P.20131013
+AR work/and_gate/and_gate -1 FL C:/Users/acer/Lab2/and_gate.vhd EN work/and_gate 1598077545
+EN work/and_gate 1598077545 \
+      FL C:/Users/acer/Lab2/and_gate.vhd PB ieee/std_logic_1164 1381692176
+AR work/and_gate/gatelevel 1598077546 \
+      FL C:/Users/acer/Lab2/and_gate.vhd EN work/and_gate 1598077545
+FL C:/Users/acer/Lab2/full_adder.vhd 2020/08/22.10:50:07 P.20131013
+EN work/full_adder 1598077551 FL C:/Users/acer/Lab2/full_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/structure 1598077552 \
+      FL C:/Users/acer/Lab2/full_adder.vhd EN work/full_adder 1598077551 \
+      CP half_adder CP or_gate
+FL C:/Users/acer/Lab2/half_adder.vhd 2020/08/22.10:55:41 P.20131013
+EN work/half_adder 1598077547 FL C:/Users/acer/Lab2/half_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/half_adder/structure 1598077548 \
+      FL C:/Users/acer/Lab2/half_adder.vhd EN work/half_adder 1598077547 \
+      CP xor_gate CP and_gate
+FL C:/Users/acer/Lab2/or_gate.vhd 2020/08/22.10:54:03 P.20131013
+EN work/or_gate 1598077549 FL C:/Users/acer/Lab2/or_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/or_gate/gatelevel 1598077550 \
+      FL C:/Users/acer/Lab2/or_gate.vhd EN work/or_gate 1598077549
+FL C:/Users/acer/Lab2/xor_gate.vhd 2020/08/22.10:50:15 P.20131013
+EN work/xor_gate 1598077543 FL C:/Users/acer/Lab2/xor_gate.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/xor_gate/gatelevel 1598077544 \
+      FL C:/Users/acer/Lab2/xor_gate.vhd EN work/xor_gate 1598077543

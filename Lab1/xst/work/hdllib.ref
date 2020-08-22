@@ -1,0 +1,11 @@
+EN half_adder NULL C:/Users/acer/Lab2/half_adder.vhd sub00/vhpl02 1598077547
+AR xor_gate gatelevel C:/Users/acer/Lab2/xor_gate.vhd sub00/vhpl04 1598077544
+AR and_gate and_gate C:/Users/acer/Lab2/and_gate.vhd sub00/vhpl01 1598076133
+AR and_gate gatelevel C:/Users/acer/Lab2/and_gate.vhd sub00/vhpl05 1598077546
+EN full_adder NULL C:/Users/acer/Lab2/full_adder.vhd sub00/vhpl09 1598077551
+EN or_gate NULL C:/Users/acer/Lab2/or_gate.vhd sub00/vhpl07 1598077549
+AR full_adder structure C:/Users/acer/Lab2/full_adder.vhd sub00/vhpl10 1598077552
+AR half_adder structure C:/Users/acer/Lab2/half_adder.vhd sub00/vhpl06 1598077548
+EN xor_gate NULL C:/Users/acer/Lab2/xor_gate.vhd sub00/vhpl03 1598077543
+EN and_gate NULL C:/Users/acer/Lab2/and_gate.vhd sub00/vhpl00 1598077545
+AR or_gate gatelevel C:/Users/acer/Lab2/or_gate.vhd sub00/vhpl08 1598077550
