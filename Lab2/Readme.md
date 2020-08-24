@@ -7,3 +7,4 @@
 - encoder (4to2)
 - decoder (2to4)
 - Mux (4bit)
+- testbench
