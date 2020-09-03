@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Saman/Xilinx/Projects/ComputerArc3/final_sequence_test_isim_beh.exe" -prj "C:/Users/Saman/Xilinx/Projects/ComputerArc3/final_sequence_test_beh.prj" "work.final_sequence_test" 
