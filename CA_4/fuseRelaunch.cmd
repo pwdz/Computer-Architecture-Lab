@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Saman/Xilinx/Projects/CA_4/ripple_carry_test_isim_beh.exe" -prj "C:/Users/Saman/Xilinx/Projects/CA_4/ripple_carry_test_beh.prj" "work.ripple_carry_test" 
