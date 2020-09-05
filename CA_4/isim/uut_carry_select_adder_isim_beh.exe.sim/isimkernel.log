@@ -1,0 +1,28 @@
+Command line:
+   uut_carry_select_adder_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54222
+
+Sun Sep 06 01:08:23 2020
+
+
+ Elaboration Time: 0.1875 sec
+
+ Current Memory Usage: 5819.24 Meg
+
+ Total Signals          : 279
+ Total Nets             : 53
+ Total Signal Drivers   : 44
+ Total Blocks           : 71
+ Total Primitive Blocks : 44
+ Total Processes        : 43
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 536
+
+ Total Simulation Time: 0.203125 sec
+
+ Current Memory Usage: 5819.2 Meg
+
+Sun Sep 06 01:08:57 2020
+

@@ -73,16 +73,16 @@ BEGIN
    begin		
       A <= "0000";
 		B <= "1111";
-      wait for 20 ns;
+      wait for 100 ns;
 		A <= "0001";
 		B <= "1111";
-      wait for 20 ns;
+      wait for 100 ns;
 		A <= "1010";
 		B <= "0111";
-      wait for 20 ns;
+      wait for 100 ns;
 		A <= "0011";
 		B <= "0110";
-      wait for 20 ns;	
+      wait for 100 ns;	
 		A <= "0001";
 		B <= "0011";
       wait;
