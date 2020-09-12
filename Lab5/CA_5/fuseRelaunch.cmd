@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Saman/Xilinx/Projects/CA_5/uut_carrysaveMultiplier_isim_beh.exe" -prj "C:/Users/Saman/Xilinx/Projects/CA_5/uut_carrysaveMultiplier_beh.prj" "work.uut_carrysaveMultiplier" 

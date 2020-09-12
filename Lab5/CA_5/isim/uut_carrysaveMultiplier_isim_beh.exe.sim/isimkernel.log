@@ -1,0 +1,28 @@
+Command line:
+   uut_carrysaveMultiplier_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56126
+
+Sat Sep 12 01:34:33 2020
+
+
+ Elaboration Time: 0.6875 sec
+
+ Current Memory Usage: 5189.14 Meg
+
+ Total Signals          : 347
+ Total Nets             : 73
+ Total Signal Drivers   : 67
+ Total Blocks           : 95
+ Total Primitive Blocks : 65
+ Total Processes        : 66
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 433
+
+ Total Simulation Time: 0.71875 sec
+
+ Current Memory Usage: 5189.14 Meg
+
+Sat Sep 12 01:34:50 2020
+

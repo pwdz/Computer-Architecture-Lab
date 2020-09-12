@@ -1,0 +1,28 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Saman/Xilinx/Projects/CA_5/uut_carrysaveMultiplier_isim_beh.exe -prj C:/Users/Saman/Xilinx/Projects/CA_5/uut_carrysaveMultiplier_beh.prj work.uut_carrysaveMultiplier 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/CA_5/xor_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/CA_5/and_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/CA_5/or_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/CA_5/halfAdder.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/CA_5/fullAdder.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/CA_5/carrysaveMultiplier.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/CA_5/uut_carrysaveMultiplier.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture gatelevel of entity and_gate [and_gate_default]
+Compiling architecture gatelevel of entity xor_gate [xor_gate_default]
+Compiling architecture structure of entity halfAdder [halfadder_default]
+Compiling architecture gatelevel of entity or_gate [or_gate_default]
+Compiling architecture structure of entity fullAdder [fulladder_default]
+Compiling architecture behavioral of entity carrysaveMultiplier [carrysavemultiplier_default]
+Compiling architecture behavior of entity uut_carrysavemultiplier
+Time Resolution for simulation is 1ps.
+Compiled 15 VHDL Units
+Built simulation executable C:/Users/Saman/Xilinx/Projects/CA_5/uut_carrysaveMultiplier_isim_beh.exe
+Fuse Memory Usage: 30000 KB
+Fuse CPU Usage: 405 ms
