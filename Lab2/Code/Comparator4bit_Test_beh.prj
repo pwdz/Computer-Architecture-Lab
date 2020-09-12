@@ -1,0 +1,7 @@
+vhdl work "xor_gate.vhd"
+vhdl work "or_gate.vhd"
+vhdl work "not_gate.vhd"
+vhdl work "and_gate.vhd"
+vhdl work "Comprator.vhd"
+vhdl work "Comprator4bit.vhd"
+vhdl work "Comparator4bit_Test.vhd"

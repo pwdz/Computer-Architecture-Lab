@@ -1,0 +1,4 @@
+vhdl isim_temp "or_gate.vhd"
+vhdl isim_temp "Encoder.vhd"
+vhdl isim_temp "Encoder4to2.vhd"
+vhdl isim_temp "Encoder4to2_Test.vhd"

@@ -1,0 +1,7 @@
+vhdl isim_temp "xor_gate.vhd"
+vhdl isim_temp "or_gate.vhd"
+vhdl isim_temp "not_gate.vhd"
+vhdl isim_temp "and_gate.vhd"
+vhdl isim_temp "Comprator.vhd"
+vhdl isim_temp "Comprator4bit.vhd"
+vhdl isim_temp "Comparator4bit_Test.vhd"
