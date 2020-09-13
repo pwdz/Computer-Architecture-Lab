@@ -42,10 +42,10 @@ begin
 			else
 				case lr is
 					when "00" => null;
-					when "01" => -- arithmetical&logical left shift
+					when "10" => -- arithmetical&logical left shift
 						internal_reg(3 downto 1) <= internal_reg(2 downto 0);
 						internal_reg(0) <= '0';
-					when "10" => -- arithmetical right shift
+					when "01" => -- arithmetical right shift
 						internal_reg(2 downto 0) <= internal_reg(3 downto 1);
 						internal_reg(3) <= internal_reg(2);
 					when "11" => -- logical right shift

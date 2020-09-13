@@ -99,10 +99,10 @@ BEGIN
 
       wait for 100 ns ;
       load <= '0';
-      lr <= "01"; --left shift 
+      lr <= "10"; --left shift 
 
       wait for 100 ns ;
-      lr <= "10"; -- arithmetic right shift
+      lr <= "01"; -- arithmetic right shift
 
       wait for 100 ns ;
       lr <= "11"; -- logical right shift

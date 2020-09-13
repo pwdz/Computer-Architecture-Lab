@@ -12,7 +12,8 @@ Compiling package std_logic_1164
 Compiling architecture behavioural of entity ShiftRegister [shiftregister_default]
 Compiling architecture behavior of entity uut_shiftregister
 Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
 Compiled 5 VHDL Units
 Built simulation executable D:/AUT/Term4/CA/Lab/Lab6/uut_ShiftRegister_isim_beh.exe
-Fuse Memory Usage: 29676 KB
-Fuse CPU Usage: 359 ms
+Fuse Memory Usage: 29764 KB
+Fuse CPU Usage: 499 ms
