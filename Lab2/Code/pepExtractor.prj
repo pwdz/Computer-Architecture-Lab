@@ -1,0 +1,4 @@
+work	"Decoder1to2.vhd"
+work	"Decoder2to4.vhd"
+work	"and_gate.vhd"
+work	"not_gate.vhd"

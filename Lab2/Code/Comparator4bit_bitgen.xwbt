@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\AUT\Term4\CA\Lab\Lab2\Comparator4bit.ncd
+OUTFILE=D:\AUT\Term4\CA\Lab\Lab2\Comparator4bit.bit
+FAMILY=Spartan3
+PART=xc3s400-5pq208
+WORKINGDIR=D:\AUT\Term4\CA\Lab\Lab2
+LICENSE=WebPack
+USER_INFO=__0_0_0

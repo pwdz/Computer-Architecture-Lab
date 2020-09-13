@@ -1,0 +1,30 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/AUT/Term4/CA/Lab/Lab2/Comparator4bit_Test_isim_beh.exe -prj D:/AUT/Term4/CA/Lab/Lab2/Comparator4bit_Test_beh.prj work.Comparator4bit_Test 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/AUT/Term4/CA/Lab/Lab2/xor_gate.vhd" into library work
+Parsing VHDL file "D:/AUT/Term4/CA/Lab/Lab2/or_gate.vhd" into library work
+Parsing VHDL file "D:/AUT/Term4/CA/Lab/Lab2/not_gate.vhd" into library work
+Parsing VHDL file "D:/AUT/Term4/CA/Lab/Lab2/and_gate.vhd" into library work
+Parsing VHDL file "D:/AUT/Term4/CA/Lab/Lab2/Comprator.vhd" into library work
+Parsing VHDL file "D:/AUT/Term4/CA/Lab/Lab2/Comprator4bit.vhd" into library work
+Parsing VHDL file "D:/AUT/Term4/CA/Lab/Lab2/Comparator4bit_Test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture gatelevel of entity not_gate [not_gate_default]
+Compiling architecture gatelevel of entity and_gate [and_gate_default]
+Compiling architecture gatelevel of entity xnor_gate [xnor_gate_default]
+Compiling architecture gatelevel of entity or_gate [or_gate_default]
+Compiling architecture structure of entity Comprator [comprator_default]
+Compiling architecture structure of entity Comparator4bit [comparator4bit_default]
+Compiling architecture behavior of entity comparator4bit_test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 16 VHDL Units
+Built simulation executable D:/AUT/Term4/CA/Lab/Lab2/Comparator4bit_Test_isim_beh.exe
+Fuse Memory Usage: 35636 KB
+Fuse CPU Usage: 468 ms
