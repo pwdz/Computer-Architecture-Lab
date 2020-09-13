@@ -52,17 +52,17 @@ ARCHITECTURE behavior OF uut_ShiftRegister IS
     
 
    --Inputs
-   signal clk : std_logic := '0';
-   signal reset : std_logic := '0';
+   signal clk : std_logic;
+   signal reset : std_logic := '1';
    signal load : std_logic := '0';
-   signal parallel_in : std_logic_vector(3 downto 0) := (others => '0');
+   signal parallel_in : std_logic_vector(3 downto 0) := (others => '1');
    signal lr : std_logic_vector(1 downto 0) := (others => '0');
 
  	--Outputs
    signal reg_out : std_logic_vector(3 downto 0);
 
    -- Clock period definitions
-   constant clk_period : time := 10 ns;
+   constant clk_period : time := 50 ns;
  
 BEGIN
  
@@ -77,26 +77,39 @@ BEGIN
         );
 
    -- Clock process definitions
-   clk_process :process
-   begin
+  clk_process :process
+  begin
 		clk <= '0';
-		wait for clk_period/2;
+		wait for clk_period;
 		clk <= '1';
-		wait for clk_period/2;
-   end process;
+		wait for clk_period;
+  end process;
  
 
    -- Stimulus process
    stim_proc: process
    begin		
-      -- hold reset state for 100 ns.
-      wait for 100 ns;	
+      wait for 100 ns ;	
+      reset <= '0';      
+      lr <= "00"; --hold
 
-      wait for clk_period*10;
+      wait for 70 ns ;
+      parallel_in <= "1001"; 
+      load <= '1'; --load
 
-      -- insert stimulus here 
+      wait for 100 ns ;
+      load <= '0';
+      lr <= "01"; --left shift 
 
-      wait;
+      wait for 100 ns ;
+      lr <= "10"; -- arithmetic right shift
+
+      wait for 100 ns ;
+      lr <= "11"; -- logical right shift
+
+      wait for 100 ns;
+      reset <= '1';
+      
    end process;
 
 END;

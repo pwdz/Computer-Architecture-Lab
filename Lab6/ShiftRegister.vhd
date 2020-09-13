@@ -30,25 +30,28 @@ end ShiftRegister;
 
 architecture behavioural of ShiftRegister is
 	signal internal_reg : std_logic_vector(3 downto 0);
+	signal sign_bit : std_logic;
 begin
 	process (clk)
 	begin
 		if reset = '1' then
 			internal_reg <= "0000";
-		elsif (clk'event and clk='1') then
+		elsif rising_edge(clk)  then
 			if load = '1' then
+				internal_reg <= parallel_in;
+			else
 				case lr is
-					when "00" =>
-						internal_reg <= parallel_in;
-					when "11" => -- arithmetical&logical left shift
+					when "00" => null;
+					when "01" => -- arithmetical&logical left shift
 						internal_reg(3 downto 1) <= internal_reg(2 downto 0);
 						internal_reg(0) <= '0';
 					when "10" => -- arithmetical right shift
 						internal_reg(2 downto 0) <= internal_reg(3 downto 1);
-						internal_reg(3) <= '1';
-					when "01" => -- logical right shift
+						internal_reg(3) <= internal_reg(2);
+					when "11" => -- logical right shift
 						internal_reg(2 downto 0) <= internal_reg(3 downto 1);
 						internal_reg(3) <= '0';
+					when others => null;
 				end case;
 			end if;
 		end if;
