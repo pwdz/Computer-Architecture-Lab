@@ -1,0 +1,28 @@
+Command line:
+   uut_ROM_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52936
+
+Mon Sep 14 12:56:34 2020
+
+
+ Elaboration Time: 0.6875 sec
+
+ Current Memory Usage: 5173.12 Meg
+
+ Total Signals          : 31
+ Total Nets             : 19
+ Total Signal Drivers   : 11
+ Total Blocks           : 12
+ Total Primitive Blocks : 7
+ Total Processes        : 11
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 412
+
+ Total Simulation Time: 0.71875 sec
+
+ Current Memory Usage: 5173.12 Meg
+
+Mon Sep 14 12:56:46 2020
+
