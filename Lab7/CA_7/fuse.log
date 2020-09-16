@@ -1,27 +1,19 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Saman/Xilinx/Projects/CA_7/uut_ROM_isim_beh.exe -prj C:/Users/Saman/Xilinx/Projects/CA_7/uut_ROM_beh.prj work.uut_ROM 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Saman/Xilinx/Projects/CA_7/uut_CAM_isim_beh.exe -prj C:/Users/Saman/Xilinx/Projects/CA_7/uut_CAM_beh.prj work.uut_CAM 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/CA_7/not_gate.vhd" into library work
-Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/CA_7/decoder.vhd" into library work
-Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/CA_7/and_gate.vhd" into library work
-Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/CA_7/decoder24.vhd" into library work
-Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/CA_7/ROM.vhd" into library work
-Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/CA_7/uut_ROM.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/CA_7/CAM.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/CA_7/uut_CAM.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
-Compiling architecture gatelevel of entity not_gate [not_gate_default]
-Compiling architecture structure of entity decoder [decoder_default]
-Compiling architecture gatelevel of entity and_gate [and_gate_default]
-Compiling architecture structure of entity decoder24 [decoder24_default]
-Compiling architecture behavioral of entity ROM [rom_default]
-Compiling architecture behavior of entity uut_rom
+Compiling package numeric_std
+Compiling architecture behavioral of entity CAM [cam_default]
+Compiling architecture behavior of entity uut_cam
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
-Compiled 13 VHDL Units
-Built simulation executable C:/Users/Saman/Xilinx/Projects/CA_7/uut_ROM_isim_beh.exe
-Fuse Memory Usage: 29220 KB
-Fuse CPU Usage: 468 ms
+Compiled 6 VHDL Units
+Built simulation executable C:/Users/Saman/Xilinx/Projects/CA_7/uut_CAM_isim_beh.exe
+Fuse Memory Usage: 35388 KB
+Fuse CPU Usage: 530 ms
