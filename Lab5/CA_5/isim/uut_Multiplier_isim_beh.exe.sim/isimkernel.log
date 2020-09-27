@@ -2,14 +2,14 @@ Command line:
    uut_Multiplier_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  53632
+     -socket  55643
 
-Fri Sep 11 07:07:18 2020
+Wed Sep 16 04:35:28 2020
 
 
- Elaboration Time: 0.703125 sec
+ Elaboration Time: 0.765625 sec
 
- Current Memory Usage: 5189.67 Meg
+ Current Memory Usage: 5173.13 Meg
 
  Total Signals          : 346
  Total Nets             : 73
@@ -20,9 +20,9 @@ Fri Sep 11 07:07:18 2020
  Total Traceable Variables  : 8
  Total Scalar Nets and Variables : 433
 
- Total Simulation Time: 0.703125 sec
+ Total Simulation Time: 0.78125 sec
 
- Current Memory Usage: 4717.81 Meg
+ Current Memory Usage: 5015.84 Meg
 
-Fri Sep 11 07:20:42 2020
+Wed Sep 16 04:36:30 2020
 

@@ -1,0 +1,38 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Saman/Xilinx/Projects/Basic_Computer/uut_basic_computer_isim_beh.exe -prj C:/Users/Saman/Xilinx/Projects/Basic_Computer/uut_basic_computer_beh.prj work.uut_basic_computer 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/Basic_Computer/not_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/Basic_Computer/and_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/Basic_Computer/decoder.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/Basic_Computer/decoder24.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/Basic_Computer/decoder38.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/Basic_Computer/decoder4_16.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/Basic_Computer/ROM.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/Basic_Computer/RAM.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/Basic_Computer/Basic_Computer.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/Xilinx/Projects/Basic_Computer/uut_basic_computer.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture gatelevel of entity not_gate [not_gate_default]
+Compiling architecture gatelevel of entity and_gate [and_gate_default]
+Compiling architecture structure of entity decoder [decoder_default]
+Compiling architecture structure of entity decoder24 [decoder24_default]
+Compiling architecture behavioral of entity decoder38 [decoder38_default]
+Compiling architecture behavioral of entity decoder4_16 [decoder4_16_default]
+Compiling architecture behavioral of entity ROM [rom_default]
+Compiling architecture behavioral of entity RAM [ram_default]
+Compiling architecture behavioral of entity Basic_Computer [basic_computer_default]
+Compiling architecture behavior of entity uut_basic_computer
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 24 VHDL Units
+Built simulation executable C:/Users/Saman/Xilinx/Projects/Basic_Computer/uut_basic_computer_isim_beh.exe
+Fuse Memory Usage: 36844 KB
+Fuse CPU Usage: 718 ms

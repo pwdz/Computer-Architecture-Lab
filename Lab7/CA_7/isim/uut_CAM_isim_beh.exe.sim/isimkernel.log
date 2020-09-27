@@ -2,14 +2,14 @@ Command line:
    uut_CAM_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  55242
+     -socket  62457
 
-Wed Sep 16 03:36:22 2020
+Fri Sep 18 04:55:19 2020
 
 
- Elaboration Time: 0.671875 sec
+ Elaboration Time: 0.75 sec
 
- Current Memory Usage: 5172.62 Meg
+ Current Memory Usage: 5173.19 Meg
 
  Total Signals          : 16
  Total Nets             : 49
@@ -20,9 +20,9 @@ Wed Sep 16 03:36:22 2020
  Total Traceable Variables  : 14
  Total Scalar Nets and Variables : 533
 
- Total Simulation Time: 0.78125 sec
+ Total Simulation Time: 0.75 sec
 
- Current Memory Usage: 5487.19 Meg
+ Current Memory Usage: 5173.19 Meg
 
-Wed Sep 16 03:36:52 2020
+Fri Sep 18 04:55:25 2020
 

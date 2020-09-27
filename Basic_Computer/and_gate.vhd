@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    05:39:48 09/12/2020 
+-- Create Date:    11:36:59 08/21/2020 
 -- Design Name: 
--- Module Name:    block - Behavioral 
+-- Module Name:    and_gate - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -29,16 +29,15 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity block is
-    Port ( Data : inout  STD_LOGIC;
-           rw : in  STD_LOGIC;
-           Enable : in  STD_LOGIC);
-end block;
+entity and_gate is
+    Port ( A : in  STD_LOGIC;
+           B : in  STD_LOGIC;
+           C : out  STD_LOGIC);
+end entity and_gate;
 
-architecture Behavioral of block is
+architecture gatelevel of and_gate is
 
 begin
-
-
-end Behavioral;
+	C <= A and B;
+end gatelevel;
 

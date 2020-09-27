@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Saman/Xilinx/Projects/Basic_Computer/uut_basic_computer_isim_beh.exe" -prj "C:/Users/Saman/Xilinx/Projects/Basic_Computer/uut_basic_computer_beh.prj" "work.uut_basic_computer" 
