@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/AUT/Term4/CA/Lab/Lab6/uut_ShiftRegister.vhd";
+static const char *ng0 = "D:/AUT/Term4/CA/Lab/Lab6/Code/uut_ShiftRegister.vhd";
 
 
 
@@ -126,7 +126,7 @@ LAB4:    xsi_set_current_line(93, ng0);
     *((unsigned char *)t7) = (unsigned char)2;
     xsi_driver_first_trans_fast(t2);
     xsi_set_current_line(94, ng0);
-    t2 = (t0 + 6132);
+    t2 = (t0 + 6192);
     t5 = (t0 + 3872);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
@@ -147,7 +147,7 @@ LAB5:    goto LAB4;
 LAB7:    goto LAB5;
 
 LAB8:    xsi_set_current_line(97, ng0);
-    t2 = (t0 + 6134);
+    t2 = (t0 + 6194);
     t5 = (t0 + 3936);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
@@ -184,7 +184,7 @@ LAB12:    xsi_set_current_line(101, ng0);
     *((unsigned char *)t7) = (unsigned char)2;
     xsi_driver_first_trans_fast(t2);
     xsi_set_current_line(102, ng0);
-    t2 = (t0 + 6138);
+    t2 = (t0 + 6198);
     t5 = (t0 + 3872);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
@@ -205,7 +205,7 @@ LAB13:    goto LAB12;
 LAB15:    goto LAB13;
 
 LAB16:    xsi_set_current_line(105, ng0);
-    t2 = (t0 + 6140);
+    t2 = (t0 + 6200);
     t5 = (t0 + 3872);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
@@ -226,7 +226,7 @@ LAB17:    goto LAB16;
 LAB19:    goto LAB17;
 
 LAB20:    xsi_set_current_line(108, ng0);
-    t2 = (t0 + 6142);
+    t2 = (t0 + 6202);
     t5 = (t0 + 3872);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);

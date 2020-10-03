@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/AUT/Term4/CA/Lab/Lab6/ShiftRegister.vhd";
+static const char *ng0 = "D:/AUT/Term4/CA/Lab/Lab6/Code/ShiftRegister.vhd";
 extern char *IEEE_P_2592010699;
 
 unsigned char ieee_p_2592010699_sub_1744673427_503743352(char *, char *, unsigned int , unsigned int );
@@ -77,7 +77,7 @@ LAB3:    xsi_set_current_line(58, ng0);
 
 LAB1:    return;
 LAB2:    xsi_set_current_line(38, ng0);
-    t1 = (t0 + 5710);
+    t1 = (t0 + 5766);
     t6 = (t0 + 3712);
     t7 = (t6 + 56U);
     t8 = *((char **)t7);
@@ -98,22 +98,22 @@ LAB5:    xsi_set_current_line(40, ng0);
 LAB9:    xsi_set_current_line(43, ng0);
     t1 = (t0 + 1672U);
     t2 = *((char **)t1);
-    t1 = (t0 + 5714);
+    t1 = (t0 + 5770);
     t12 = xsi_mem_cmp(t1, t2, 2U);
     if (t12 == 1)
         goto LAB11;
 
-LAB16:    t6 = (t0 + 5716);
+LAB16:    t6 = (t0 + 5772);
     t13 = xsi_mem_cmp(t6, t2, 2U);
     if (t13 == 1)
         goto LAB12;
 
-LAB17:    t8 = (t0 + 5718);
+LAB17:    t8 = (t0 + 5774);
     t14 = xsi_mem_cmp(t8, t2, 2U);
     if (t14 == 1)
         goto LAB13;
 
-LAB18:    t10 = (t0 + 5720);
+LAB18:    t10 = (t0 + 5776);
     t16 = xsi_mem_cmp(t10, t2, 2U);
     if (t16 == 1)
         goto LAB14;

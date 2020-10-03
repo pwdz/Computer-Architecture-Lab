@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "D:/AUT/Term4/CA/Lab/Lab6/uut_ShiftRegister_isim_beh.exe" -prj "D:/AUT/Term4/CA/Lab/Lab6/uut_ShiftRegister_beh.prj" "work.uut_ShiftRegister" 
+-intstyle "ise" -incremental -o "D:/AUT/Term4/CA/Lab/Lab6/Code/uut_ShiftRegister_isim_beh.exe" -prj "D:/AUT/Term4/CA/Lab/Lab6/Code/uut_ShiftRegister_beh.prj" "work.uut_ShiftRegister" 
