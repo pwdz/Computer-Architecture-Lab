@@ -1,5 +1,5 @@
 ISim log file
-Running: D:\AUT\Term4\CA\Lab\Basic_Computer\ALU_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/AUT/Term4/CA/Lab/Basic_Computer/ALU_isim_beh.wdb 
+Running: D:\AUT\Term4\CA\Lab\Basic_Computer\uut_ALU_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/AUT/Term4/CA/Lab/Basic_Computer/uut_ALU_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
 Time resolution is 1 ps
@@ -7,13 +7,11 @@ Time resolution is 1 ps
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
-at 0 ps, Instance /alu/add/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /alu/add/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /alu/add/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-at 0 ps, Instance /alu/sub/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /alu/sub/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /alu/sub/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
-at 0 ps, Instance /alu/mult/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /alu/mult/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-at 0 ps, Instance /alu/mult/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 0 ps, Instance /uut_alu/uut/add/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 0 ps, Instance /uut_alu/uut/sub/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 0 ps, Instance /uut_alu/uut/mult/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
 Finished circuit initialization process.
+at 600 ns(3), Instance /uut_alu/uut/add/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 600 ns(4), Instance /uut_alu/uut/add/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 900 ns(3), Instance /uut_alu/uut/add/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 900 ns(4), Instance /uut_alu/uut/add/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated

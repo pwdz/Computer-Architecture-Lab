@@ -1,51 +1,45 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/AUT/Term4/CA/Lab/Basic_Computer/ALU_isim_beh.exe -prj D:/AUT/Term4/CA/Lab/Basic_Computer/ALU_beh.prj ALU 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/AUT/Term4/CA/Lab/Basic_Computer/uut_ALU_isim_beh.exe -prj D:/AUT/Term4/CA/Lab/Basic_Computer/uut_ALU_beh.prj work.uut_ALU 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
+Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/xor_gate.vhd" into library work
 Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/and_gate.vhd" into library work
+Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/or_gate.vhd" into library work
+Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/not_gate.vhd" into library work
+Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/halfAdder.vhd" into library work
+Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/Mux.vhd" into library work
+Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/fullAdder.vhd" into library work
+Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/Mux4to1_1bit.vhd" into library work
 Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" into library work
 Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/sub_8bit.vhd" into library work
+Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/Mux4to1_8bit.vhd" into library work
 Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/mult_8bit.vhd" into library work
 Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/carry_lookahead_adder.vhd" into library work
 Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/ALU.vhd" into library work
+Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/uut_ALU.vhd" into library work
 Starting static elaboration
-WARNING:HDLCompiler:89 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 79: <halfadder> remains a black-box since it has no binding entity.
-WARNING:HDLCompiler:89 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 80: <halfadder> remains a black-box since it has no binding entity.
-WARNING:HDLCompiler:89 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 81: <halfadder> remains a black-box since it has no binding entity.
-WARNING:HDLCompiler:89 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 83: <fulladder> remains a black-box since it has no binding entity.
-WARNING:HDLCompiler:89 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 84: <fulladder> remains a black-box since it has no binding entity.
-WARNING:HDLCompiler:89 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 85: <fulladder> remains a black-box since it has no binding entity.
-WARNING:HDLCompiler:89 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 87: <fulladder> remains a black-box since it has no binding entity.
-WARNING:HDLCompiler:89 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 88: <fulladder> remains a black-box since it has no binding entity.
-WARNING:HDLCompiler:89 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 89: <fulladder> remains a black-box since it has no binding entity.
-WARNING:HDLCompiler:89 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 91: <halfadder> remains a black-box since it has no binding entity.
-WARNING:HDLCompiler:89 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 92: <fulladder> remains a black-box since it has no binding entity.
-WARNING:HDLCompiler:89 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 93: <fulladder> remains a black-box since it has no binding entity.
 Completed static elaboration
-WARNING:Simulator:648 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 79. Instance halfadder is unbound
-WARNING:Simulator:648 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 80. Instance halfadder is unbound
-WARNING:Simulator:648 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 81. Instance halfadder is unbound
-WARNING:Simulator:648 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 83. Instance fulladder is unbound
-WARNING:Simulator:648 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 84. Instance fulladder is unbound
-WARNING:Simulator:648 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 85. Instance fulladder is unbound
-WARNING:Simulator:648 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 87. Instance fulladder is unbound
-WARNING:Simulator:648 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 88. Instance fulladder is unbound
-WARNING:Simulator:648 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 89. Instance fulladder is unbound
-WARNING:Simulator:648 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 91. Instance halfadder is unbound
-WARNING:Simulator:648 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 92. Instance fulladder is unbound
-WARNING:Simulator:648 - "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" Line 93. Instance fulladder is unbound
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package numeric_std
 Compiling architecture behavioral of entity ripple_carry_adder [ripple_carry_adder_default]
 Compiling architecture behavioral of entity sub_8bit [sub_8bit_default]
 Compiling architecture gatelevel of entity and_gate [and_gate_default]
+Compiling architecture gatelevel of entity xor_gate [xor_gate_default]
+Compiling architecture structure of entity halfAdder [halfadder_default]
+Compiling architecture gatelevel of entity or_gate [or_gate_default]
+Compiling architecture structure of entity fullAdder [fulladder_default]
 Compiling architecture behavioral of entity carrysaveMultiplier [carrysavemultiplier_default]
 Compiling architecture behave of entity mult_8bit [mult_8bit_default]
-Compiling architecture behavioral of entity alu
+Compiling architecture gatelevel of entity not_gate [not_gate_default]
+Compiling architecture structure of entity MUX [mux_default]
+Compiling architecture structure of entity MUX4to1_1bit [mux4to1_1bit_default]
+Compiling architecture structure of entity MUX4to1_8bit [mux4to1_8bit_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavior of entity uut_alu
 Time Resolution for simulation is 1ps.
-Compiled 14 VHDL Units
-Built simulation executable D:/AUT/Term4/CA/Lab/Basic_Computer/ALU_isim_beh.exe
-Fuse Memory Usage: 36004 KB
-Fuse CPU Usage: 577 ms
+Compiled 32 VHDL Units
+Built simulation executable D:/AUT/Term4/CA/Lab/Basic_Computer/uut_ALU_isim_beh.exe
+Fuse Memory Usage: 36344 KB
+Fuse CPU Usage: 578 ms

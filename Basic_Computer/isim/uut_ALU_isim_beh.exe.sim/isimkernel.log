@@ -2,27 +2,27 @@ Command line:
    uut_ALU_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  50113
+     -socket  64855
 
-Sat Oct 03 11:13:11 2020
+Sat Oct 03 23:49:24 2020
 
 
- Elaboration Time: 0.875 sec
+ Elaboration Time: 0.859375 sec
 
- Current Memory Usage: 5844.23 Meg
+ Current Memory Usage: 5844.2 Meg
 
- Total Signals          : 270
- Total Nets             : 267
- Total Signal Drivers   : 89
- Total Blocks           : 75
- Total Primitive Blocks : 68
- Total Processes        : 85
+ Total Signals          : 1970
+ Total Nets             : 514
+ Total Signal Drivers   : 396
+ Total Blocks           : 524
+ Total Primitive Blocks : 368
+ Total Processes        : 394
  Total Traceable Variables  : 13
- Total Scalar Nets and Variables : 750
+ Total Scalar Nets and Variables : 997
 
- Total Simulation Time: 0.875 sec
+ Total Simulation Time: 0.90625 sec
 
- Current Memory Usage: 5372.34 Meg
+ Current Memory Usage: 4743.16 Meg
 
-Sat Oct 03 11:21:28 2020
+Sun Oct 04 01:02:47 2020
 

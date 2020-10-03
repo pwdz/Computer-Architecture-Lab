@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "D:/AUT/Term4/CA/Lab/Basic_Computer/ALU_isim_beh.exe" -prj "D:/AUT/Term4/CA/Lab/Basic_Computer/ALU_beh.prj" "ALU" 
+-intstyle "ise" -incremental -o "D:/AUT/Term4/CA/Lab/Basic_Computer/uut_ALU_isim_beh.exe" -prj "D:/AUT/Term4/CA/Lab/Basic_Computer/uut_ALU_beh.prj" "work.uut_ALU" 

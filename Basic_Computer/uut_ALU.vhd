@@ -72,22 +72,22 @@ BEGIN
    stim_proc: process
    begin		
       wait for 100 ns ;	
-      --C <= "01";
+      C <= "01";
 
-      wait for 70 ns ;
-      --C <= "10";
+      wait for 100 ns ;
+      C <= "10";
 		
       wait for 100 ns ;
-		--temp1 <= "10000001";
+		temp1 <= "10000001";
       
       wait for 100 ns ;
-      --C <= "01";
+      C <= "01";
 		
       wait for 100 ns ;
-      --C <= "00";
+      C <= "00";
       wait for 100 ns;
-      --temp1 <= "01111110";
-		--temp2 <= "11111111";
+      temp1 <= "01111110";
+		temp2 <= "11111111";
 		
    end process;
 
