@@ -2,14 +2,14 @@ Command line:
    uut_ALU_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  64855
+     -socket  50490
 
-Sat Oct 03 23:49:24 2020
+Sun Oct 04 06:47:34 2020
 
 
- Elaboration Time: 0.859375 sec
+ Elaboration Time: 0.703125 sec
 
- Current Memory Usage: 5844.2 Meg
+ Current Memory Usage: 5189.76 Meg
 
  Total Signals          : 1970
  Total Nets             : 514
@@ -20,9 +20,9 @@ Sat Oct 03 23:49:24 2020
  Total Traceable Variables  : 13
  Total Scalar Nets and Variables : 997
 
- Total Simulation Time: 0.90625 sec
+ Total Simulation Time: 0.765625 sec
 
- Current Memory Usage: 4743.16 Meg
+ Current Memory Usage: 4717.9 Meg
 
-Sun Oct 04 01:02:47 2020
+Sun Oct 04 06:50:07 2020
 

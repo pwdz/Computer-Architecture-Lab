@@ -32,8 +32,8 @@ use IEEE.NUMERIC_STD.ALL;
 entity ALU is
 	Port (  temp1,temp2: in STD_LOGIC_VECTOR(7 downto 0);
 			  C: in STD_LOGIC_VECTOR(1 downto 0);-- 00 -> mult | 01 -> Add | 10 -> sub
-              CF: out STD_LOGIC;
-              temp3: out STD_LOGIC_VECTOR(7 downto 0));
+           CF: out STD_LOGIC;
+           temp3: out STD_LOGIC_VECTOR(7 downto 0));
 end ALU;
 
 architecture Behavioral of ALU is

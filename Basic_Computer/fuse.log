@@ -1,45 +1,62 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/AUT/Term4/CA/Lab/Basic_Computer/uut_ALU_isim_beh.exe -prj D:/AUT/Term4/CA/Lab/Basic_Computer/uut_ALU_beh.prj work.uut_ALU 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Saman/ca-lab/Basic_Computer/uut_basic_computer_isim_beh.exe -prj C:/Users/Saman/ca-lab/Basic_Computer/uut_basic_computer_beh.prj work.uut_basic_computer 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/xor_gate.vhd" into library work
-Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/and_gate.vhd" into library work
-Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/or_gate.vhd" into library work
-Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/not_gate.vhd" into library work
-Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/halfAdder.vhd" into library work
-Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/Mux.vhd" into library work
-Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/fullAdder.vhd" into library work
-Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/Mux4to1_1bit.vhd" into library work
-Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/a.vhd" into library work
-Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/sub_8bit.vhd" into library work
-Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/Mux4to1_8bit.vhd" into library work
-Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/mult_8bit.vhd" into library work
-Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/carry_lookahead_adder.vhd" into library work
-Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/ALU.vhd" into library work
-Parsing VHDL file "D:/AUT/Term4/CA/Lab/Basic_Computer/uut_ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/xor_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/not_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/and_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/or_gate.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/halfAdder.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/decoder.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/Mux.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/fullAdder.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/decoder24.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/Mux4to1_1bit.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/decoder38.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/a.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/sub_8bit.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/Mux4to1_8bit.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/mult_8bit.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/decoder4_16.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/carry_lookahead_adder.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/ROM.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/RAM.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/Basic_Computer.vhd" into library work
+Parsing VHDL file "C:/Users/Saman/ca-lab/Basic_Computer/uut_basic_computer.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
 Compiling package numeric_std
+Compiling architecture gatelevel of entity not_gate [not_gate_default]
+Compiling architecture gatelevel of entity and_gate [and_gate_default]
+Compiling architecture structure of entity decoder [decoder_default]
+Compiling architecture structure of entity decoder24 [decoder24_default]
+Compiling architecture behavioral of entity decoder38 [decoder38_default]
+Compiling architecture behavioral of entity decoder4_16 [decoder4_16_default]
+Compiling architecture behavioral of entity ROM [rom_default]
+Compiling architecture behavioral of entity RAM [ram_default]
 Compiling architecture behavioral of entity ripple_carry_adder [ripple_carry_adder_default]
 Compiling architecture behavioral of entity sub_8bit [sub_8bit_default]
-Compiling architecture gatelevel of entity and_gate [and_gate_default]
 Compiling architecture gatelevel of entity xor_gate [xor_gate_default]
 Compiling architecture structure of entity halfAdder [halfadder_default]
 Compiling architecture gatelevel of entity or_gate [or_gate_default]
 Compiling architecture structure of entity fullAdder [fulladder_default]
 Compiling architecture behavioral of entity carrysaveMultiplier [carrysavemultiplier_default]
 Compiling architecture behave of entity mult_8bit [mult_8bit_default]
-Compiling architecture gatelevel of entity not_gate [not_gate_default]
 Compiling architecture structure of entity MUX [mux_default]
 Compiling architecture structure of entity MUX4to1_1bit [mux4to1_1bit_default]
 Compiling architecture structure of entity MUX4to1_8bit [mux4to1_8bit_default]
 Compiling architecture behavioral of entity ALU [alu_default]
-Compiling architecture behavior of entity uut_alu
+Compiling architecture behavioral of entity Basic_Computer [basic_computer_default]
+Compiling architecture behavior of entity uut_basic_computer
 Time Resolution for simulation is 1ps.
-Compiled 32 VHDL Units
-Built simulation executable D:/AUT/Term4/CA/Lab/Basic_Computer/uut_ALU_isim_beh.exe
-Fuse Memory Usage: 36344 KB
-Fuse CPU Usage: 578 ms
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 48 VHDL Units
+Built simulation executable C:/Users/Saman/ca-lab/Basic_Computer/uut_basic_computer_isim_beh.exe
+Fuse Memory Usage: 37548 KB
+Fuse CPU Usage: 843 ms

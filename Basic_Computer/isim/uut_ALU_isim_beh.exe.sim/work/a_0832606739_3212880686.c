@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/AUT/Term4/CA/Lab/Basic_Computer/ALU.vhd";
+static const char *ng0 = "C:/Users/Saman/ca-lab/Basic_Computer/ALU.vhd";
 extern char *IEEE_P_2592010699;
 
 
@@ -92,7 +92,7 @@ static void work_a_0832606739_3212880686_p_1(char *t0)
 
 LAB0:    xsi_set_current_line(89, ng0);
 
-LAB3:    t1 = (t0 + 8334);
+LAB3:    t1 = (t0 + 8386);
     t3 = (t0 + 3112U);
     t4 = *((char **)t3);
     t5 = *((unsigned char *)t4);

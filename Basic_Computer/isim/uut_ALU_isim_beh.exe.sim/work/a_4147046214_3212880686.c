@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/AUT/Term4/CA/Lab/Basic_Computer/carry_lookahead_adder.vhd";
+static const char *ng0 = "C:/Users/Saman/ca-lab/Basic_Computer/carry_lookahead_adder.vhd";
 extern char *IEEE_P_1242562249;
 
 int ieee_p_1242562249_sub_1657552908_1035706684(char *, char *, char *);
@@ -44,7 +44,7 @@ LAB0:    xsi_set_current_line(61, ng0);
 
 LAB3:    t1 = (t0 + 1032U);
     t2 = *((char **)t1);
-    t1 = (t0 + 7920U);
+    t1 = (t0 + 7956U);
     t3 = ieee_p_1242562249_sub_1657552908_1035706684(IEEE_P_1242562249, t2, t1);
     t4 = (t0 + 5192);
     t5 = (t4 + 56U);
@@ -78,7 +78,7 @@ LAB0:    xsi_set_current_line(62, ng0);
 
 LAB3:    t1 = (t0 + 1192U);
     t2 = *((char **)t1);
-    t1 = (t0 + 7936U);
+    t1 = (t0 + 7972U);
     t3 = ieee_p_1242562249_sub_1657552908_1035706684(IEEE_P_1242562249, t2, t1);
     t4 = (t0 + 5256);
     t5 = (t4 + 56U);

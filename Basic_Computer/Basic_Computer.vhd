@@ -52,29 +52,41 @@ architecture Behavioral of Basic_Computer is
 				 clk : in STD_LOGIC;
 				 Data_out : out STD_LOGIC_VECTOR(7 downto 0));
 	end component ROM;
+	component ALU is
+		Port (  temp1,temp2: in STD_LOGIC_VECTOR(7 downto 0);
+				  C: in STD_LOGIC_VECTOR(1 downto 0);-- 00 -> add | 01 -> sub | 10 -> mult
+              CF: out STD_LOGIC;
+              temp3: out STD_LOGIC_VECTOR(7 downto 0));
+	end component ALU;
 	
 	signal akku:std_logic_vector(8 downto 0);
 	signal ir:std_logic_vector(7 downto 0);
 	signal dr:std_logic_vector(7 downto 0);
 	signal data_write:std_logic_vector(7 downto 0);
+	signal alu_in1, alu_in2, alu_out:std_logic_vector(7 downto 0);
 	signal adreg:std_logic_vector(3 downto 0);
 	signal ar:std_logic_vector(2 downto 0);
 	signal pc:std_logic_vector(3 downto 0);
 	signal states:std_logic_vector(2 downto 0);
+	signal alu_select:std_logic_vector(1 downto 0);
 	signal rw:std_logic; 
 	
 begin
-	ROM_instance: ROM port map( Address => adreg, clk => clk, Data_out => ir);
-	RAM_instance: RAM port map( Address => ar, RW => rw, clk => clk, Reset => rst, Data_in => data_write, Data_out => dr);
-	data <= akku(7 downto 0);
+	ROM_instance: ROM port map(Address => adreg, clk => clk, Data_out => ir);
+	RAM_instance: RAM port map(Address => ar, RW => rw, clk => clk, Reset => rst, Data_in => data_write, Data_out => dr);
+	ALU_instance: ALU port map(temp1 => alu_in1, temp2 => alu_in2, C => alu_select, CF => akku(8), temp3 => alu_out);
+	data <= alu_out;
 	
 	process(rst,clk)
 	begin
 		if (rst = '0') then
 			adreg <= (others => '0');
 			data_write <= (others => '0');
+			alu_in1 <= (others => '0');
+			alu_in2 <= (others => '0');
 			ar <= (others => '0');
 			states <= "000";
+			alu_select <= "00";
 			akku <= (others => '0');
 			pc   <= (others => '0');
 			rw <= '0';
@@ -89,41 +101,50 @@ begin
 				case ir(7 downto 5) is
 					when "000" => 
 						if (states = "010") then
-							akku <= ("0" & akku(7 downto 0)) + ("0" & dr);
+							alu_in1 <= akku(7 downto 0);
+							alu_in2 <= dr;
+							alu_select <= "00";
 							states <= "011";
 						elsif (states = "011") then
 							ar <= ir(2 downto 0);
 							rw <= '1';
-							data_write <= akku(7 downto 0);
+							data_write <= alu_out;
+							akku(7 downto 0) <= alu_out;
 							states <= "000";
 						end if;
 					when "001" => 
 						if (states = "010") then
-							akku <= ("0" & akku(7 downto 0)) - ("0" & dr);
+							alu_in1 <= akku(7 downto 0);
+							alu_in2 <= dr;
+							alu_select <= "01";
 							states <= "011";
 						elsif (states = "011") then
 							ar <= ir(2 downto 0);
 							rw <= '1';
-							data_write <= akku(7 downto 0);
+							data_write <= alu_out;
+							akku(7 downto 0) <= alu_out;
 							states <= "000";
 						end if;
 					when "010" => 
 						if (states = "010") then
-							akku <= ("0" & akku(7 downto 0)) * ("0" & dr);
+							alu_in1 <= akku(7 downto 0);
+							alu_in2 <= dr;
+							alu_select <= "10";
 							states <= "011";
 						elsif (states = "011") then
 							ar <= ir(2 downto 0);
 							rw <= '1';
-							data_write <= akku(7 downto 0);
+							data_write <= alu_out;
+							akku(7 downto 0) <= alu_out;
 							states <= "000";
 						end if;
-					when "011" => 
+					when "011" => --load
 						if (states = "010") then
 							rw <= '0';
 							ar <= ir(2 downto 0);
 							states <= "000";
 						end if;
-					when "100" => 
+					when "100" => --jump
 						if (states = "010") then
 							pc <= ir(3 downto 0);
 							states <= "000";

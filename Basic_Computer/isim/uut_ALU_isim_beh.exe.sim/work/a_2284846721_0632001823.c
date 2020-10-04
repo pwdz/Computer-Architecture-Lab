@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/AUT/Term4/CA/Lab/Basic_Computer/Mux4to1_8bit.vhd";
+static const char *ng0 = "C:/Users/Saman/ca-lab/Basic_Computer/Mux4to1_8bit.vhd";
 extern char *IEEE_P_2592010699;
 
 

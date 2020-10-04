@@ -1,0 +1,28 @@
+Command line:
+   uut_basic_computer_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52287
+
+Sun Oct 04 07:52:33 2020
+
+
+ Elaboration Time: 0.6875 sec
+
+ Current Memory Usage: 5189.36 Meg
+
+ Total Signals          : 2394
+ Total Nets             : 744
+ Total Signal Drivers   : 513
+ Total Blocks           : 655
+ Total Primitive Blocks : 474
+ Total Processes        : 503
+ Total Traceable Variables  : 17
+ Total Scalar Nets and Variables : 1374
+
+ Total Simulation Time: 0.734375 sec
+
+ Current Memory Usage: 5032.08 Meg
+
+Sun Oct 04 07:53:52 2020
+

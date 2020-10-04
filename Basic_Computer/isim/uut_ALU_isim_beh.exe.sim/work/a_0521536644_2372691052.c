@@ -21,7 +21,7 @@
 #include <malloc.h>
 #define alloca _alloca
 #endif
-static const char *ng0 = "D:/AUT/Term4/CA/Lab/Basic_Computer/uut_ALU.vhd";
+static const char *ng0 = "C:/Users/Saman/ca-lab/Basic_Computer/uut_ALU.vhd";
 
 
 
@@ -52,7 +52,7 @@ LAB6:    *((char **)t1) = &&LAB7;
 
 LAB1:    return;
 LAB4:    xsi_set_current_line(75, ng0);
-    t2 = (t0 + 5283);
+    t2 = (t0 + 5303);
     t5 = (t0 + 3216);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
@@ -73,7 +73,7 @@ LAB5:    goto LAB4;
 LAB7:    goto LAB5;
 
 LAB8:    xsi_set_current_line(78, ng0);
-    t2 = (t0 + 5285);
+    t2 = (t0 + 5305);
     t5 = (t0 + 3216);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
@@ -94,7 +94,7 @@ LAB9:    goto LAB8;
 LAB11:    goto LAB9;
 
 LAB12:    xsi_set_current_line(81, ng0);
-    t2 = (t0 + 5287);
+    t2 = (t0 + 5307);
     t5 = (t0 + 3280);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
@@ -115,7 +115,7 @@ LAB13:    goto LAB12;
 LAB15:    goto LAB13;
 
 LAB16:    xsi_set_current_line(84, ng0);
-    t2 = (t0 + 5295);
+    t2 = (t0 + 5315);
     t5 = (t0 + 3216);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
@@ -136,7 +136,7 @@ LAB17:    goto LAB16;
 LAB19:    goto LAB17;
 
 LAB20:    xsi_set_current_line(87, ng0);
-    t2 = (t0 + 5297);
+    t2 = (t0 + 5317);
     t5 = (t0 + 3216);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
@@ -157,7 +157,7 @@ LAB21:    goto LAB20;
 LAB23:    goto LAB21;
 
 LAB24:    xsi_set_current_line(89, ng0);
-    t2 = (t0 + 5299);
+    t2 = (t0 + 5319);
     t5 = (t0 + 3280);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
@@ -166,7 +166,7 @@ LAB24:    xsi_set_current_line(89, ng0);
     memcpy(t9, t2, 8U);
     xsi_driver_first_trans_fast(t5);
     xsi_set_current_line(90, ng0);
-    t2 = (t0 + 5307);
+    t2 = (t0 + 5327);
     t5 = (t0 + 3344);
     t6 = (t5 + 56U);
     t7 = *((char **)t6);
