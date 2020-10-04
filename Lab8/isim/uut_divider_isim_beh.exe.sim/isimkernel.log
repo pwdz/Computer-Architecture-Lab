@@ -1,0 +1,5 @@
+Command line:
+   uut_divider_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49207
