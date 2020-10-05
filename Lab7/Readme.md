@@ -1,0 +1,3 @@
+- ROM
+- RAM
+- CAM
