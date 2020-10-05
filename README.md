@@ -1,8 +1,11 @@
 # Computer-Architecture-Lab (CA Lab @ AUT)
 by [pwdz](https://github.com/pwdz) &  [saman2000hoseini](https://github.com/saman2000hoseini)  
-- [week1](https://github.com/pwdz/Computer-Architecture-Lab/blob/master/Lab1/Readme.md)
-- [week2](https://github.com/pwdz/Computer-Architecture-Lab/blob/master/Lab2/Readme.md)
-- week3
-- week4
-- week5
-- week6  
+- [Lab1](https://github.com/pwdz/Computer-Architecture-Lab/blob/master/Lab1)
+- [Lab2](https://github.com/pwdz/Computer-Architecture-Lab/blob/master/Lab2)
+- [Lab3](https://github.com/pwdz/Computer-Architecture-Lab/tree/master/Lab3)
+- [Lab4](https://github.com/pwdz/Computer-Architecture-Lab/tree/master/Lab4)
+- [Lab5](https://github.com/pwdz/Computer-Architecture-Lab/tree/master/Lab5)
+- [Lab6](https://github.com/pwdz/Computer-Architecture-Lab/tree/master/Lab6)
+- [Lab7](https://github.com/pwdz/Computer-Architecture-Lab/tree/master/Lab7)
+- [Lab8](https://github.com/pwdz/Computer-Architecture-Lab/tree/master/Lab8)
+- [Basic Computer](https://github.com/pwdz/Computer-Architecture-Lab/tree/master/Basic_Computer)
