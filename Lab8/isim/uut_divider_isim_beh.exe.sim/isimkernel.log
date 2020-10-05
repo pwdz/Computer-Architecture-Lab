@@ -2,4 +2,27 @@ Command line:
    uut_divider_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  49207
+     -socket  62407
+
+Sun Oct 04 20:06:26 2020
+
+
+ Elaboration Time: 0.75 sec
+
+ Current Memory Usage: 5670.39 Meg
+
+ Total Signals          : 27
+ Total Nets             : 114
+ Total Signal Drivers   : 18
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 16
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 597
+
+ Total Simulation Time: 0.796875 sec
+
+ Current Memory Usage: 5198.49 Meg
+
+Sun Oct 04 20:07:29 2020
+

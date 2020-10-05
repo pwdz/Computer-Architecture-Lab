@@ -28,7 +28,7 @@ use IEEE. NUMERIC_STD.ALL;
 	signal sub : unsigned(8 downto 0);
 			  
  begin
-	  --control path: registers of the FSM
+
 	  process(clk, reset)
 	  begin
 		if (reset='1') then
@@ -38,8 +38,7 @@ use IEEE. NUMERIC_STD.ALL;
 		end if;
 	end process;
 		
-        --control path: the logic that determines the next state of the FSM (this part of
-	--the code is written based on the green hexagons of Figure 3)
+
 	process(state_reg, start, m, n, i_next)
 	begin
 		case state_reg is
@@ -66,14 +65,13 @@ use IEEE. NUMERIC_STD.ALL;
 							
 			end case;
 		end process;
-					
-	--control path: output logic
+
 	ready <= '1' when state_reg = idle else
 		    '0';
 	ovfl <= '1' when ( state_reg = idle and ( m(15 downto 8) >= n ) ) else
 		'0';
 								
-	--control path: registers of the counter used to count the iterations
+
 	process(clk, reset)
 	begin
 		if (reset='1') then
@@ -83,7 +81,7 @@ use IEEE. NUMERIC_STD.ALL;
 		end if;
 	end process;
 			
-	--control path: the logic for the iteration counter
+
 	process(state_reg, i_reg)
 	begin
 		case state_reg is
@@ -100,7 +98,7 @@ use IEEE. NUMERIC_STD.ALL;
 					
 			
 			
-	--data path: the registers used in the data path
+
 	process(clk, reset)
 	begin
 		if ( reset='1' ) then
@@ -112,8 +110,7 @@ use IEEE. NUMERIC_STD.ALL;
 		end if;
 	end process;
 			
-	--data path: the multiplexers of the data path (written based on the register
-	--assignments that take place in different states of the ASMD)
+
 	process( state_reg, m, n, z_reg, d_reg, sub)
 	begin
 		d_next <= unsigned(n);
@@ -133,7 +130,7 @@ use IEEE. NUMERIC_STD.ALL;
 		end case;
 	end process;
 			
-	--data path: functional units
+
 	sub <= ( z_reg(16 downto 8) - unsigned('0' & n) );
 			
 	--data path: output
